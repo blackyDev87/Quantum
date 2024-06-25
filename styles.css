@@ -1,0 +1,239 @@
+body {
+  background-color: #2c343e;
+  font-family: "Heebo", sans-serif;
+  color: #ffffff;
+}
+
+.navbar {
+  background-color: #2c343e;
+}
+
+.navbar-toggler {
+  border: solid 0.125rem #ffffff;
+  outline: none;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: rgba(171, 29, 121, 1);
+}
+
+.header-title {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.servicios-title {
+  color: #0097b2;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.servicios-text {
+  font-weight: 400;
+  font-family: "Heebo", sans-serif;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn {
+  background: rgb(171, 29, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(171, 29, 121, 1) 0%,
+    rgba(24, 72, 160, 1) 100%
+  );
+  font-family: "Heebo", sans-serif;
+  font-size: 1.563rem;
+  font-weight: 700;
+  padding: 1.563rem;
+  border-radius: 1.875rem;
+  border: 0rem solid transparent;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.img {
+  opacity: 70%;
+  border-radius: 1.563rem;
+  box-shadow: -4.25rem -1.313rem 4.375rem -6rem #b24a3b,
+    -4.25rem -1.5rem 4.375rem -4.438rem #1848a0,
+    -4.25rem -1.5rem 4.375rem -1.313rem #4e2780,
+    -4.25rem -1.313rem 4.375rem 0.5rem #272030;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  border-top-right-radius: 2.813rem;
+  padding: 1.875rem;
+}
+
+.card-title {
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.card-text {
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  padding: 1.25rem;
+}
+
+.card-1 {
+  background-color: #6579ae;
+  color: #ffffff;
+  text-align: center;
+  border-top-right-radius: 1.563rem;
+  border-bottom-left-radius: 1.563rem;
+}
+
+.card-2 {
+  background-color: #7a4879;
+  color: #ffffff;
+  text-align: center;
+  border-top-right-radius: 1.563rem;
+  border-bottom-left-radius: 1.563rem;
+}
+
+.card-3 {
+  background-color: #a5beda;
+  color: #ffffff;
+  text-align: center;
+  border-top-right-radius: 1.563rem;
+  border-bottom-left-radius: 1.563rem;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover {
+  transform: scale(1.05);
+}
+
+.backg-envios {
+  background-color: #7a4879;
+}
+
+.map-title {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: left;
+}
+
+.map-text {
+  font-weight: 400;
+  font-family: "Heebo", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 1.563rem;
+  text-align: left;
+}
+
+.form-title {
+  font-size: 3rem;
+  color: #0097b2;
+  font-weight: 800;
+}
+
+.text-form {
+  font-weight: 400;
+  font-family: "Heebo", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 1.563rem;
+}
+
+.text-btn-form {
+  color: #ffffff;
+}
+
+.backg-foot {
+  background: linear-gradient(90deg, #5de0e6 0%, #004aad 100%);
+}
+
+.footer-links {
+  text-decoration: none;
+  font-size: 1.563rem;
+  color: #fff;
+  padding: 0.5rem;
+  margin-top: 2.813rem;
+  margin-right: 0.625rem;
+}
+
+.foot-mail {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.foot-title {
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.text-copiright-1,
+.text-copiright-2 {
+  font-weight: 400;
+  font-family: "Heebo", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.blackyDev {
+  font-weight: 700;
+  font-size: 1.5rem;
+  background: linear-gradient(100deg, #c0c0c0, #ffffff, #c0c0c0);
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 0.313rem rgba(0, 0, 0, 0.3);
+}
+
+.warnings,
+.success {
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+  text-align: center;
+}
+
+.warnings {
+  color: #ab1d79;
+  font-size: 1.5rem;
+  font-family: "Heebo", sans-serif;
+  font-weight: 600;
+}
+
+.success {
+  color: #0097b2;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Heebo", sans-serif;
+}
+
+.ultimo ~ div {
+  visibility: hidden;
+}
